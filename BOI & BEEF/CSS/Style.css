@@ -1,5 +1,6 @@
 ﻿@charset="utf-8";
 @import url(../FONTS/STENCIL.ttf);
+
 header{
 	width: 100.44%;
 	height: 15%;
@@ -15,7 +16,6 @@ header{
 	color: #ffffff; /*#BF0B0B*/;
 	font-size: 90px;
 	text-shadow:13px 2px  #4C0B0B;
-	
 	margin-top: 0px;
 	text-decoration: none;
 }
@@ -47,7 +47,7 @@ body{
 	text-shadow: 0PX 0PX;
 	text-decoration: none;
 	position: relative;
-	margin-left: 43%;
+	margin-left: 42%;
 	margin-top: -70px;
 }
 ul{
@@ -60,6 +60,8 @@ li{
 	margin: 5px;
 	margin-top: -12px;
 	margin-left: 
+	background-color:#FF0000;
+	border-color: white;
 }
 a:link{
 	text-decoration: none;
@@ -69,7 +71,7 @@ a{
 	color: #FF0000;
 }
 a:hover{
-	
+	zoom:120%;
 	color:brown;
 }
 .noticias,.receita{
@@ -78,9 +80,9 @@ a:hover{
 }
 
 .receita{
-	position: fixed;
+	position: absolute;
 	margin-left: 41.50%;
-	margin-top: -27.3%;
+	margin-top: 0%;
 	border: 2px solid white;
 	width: 40%;
 	box-sizing: border-box;
@@ -89,10 +91,11 @@ a:hover{
 }
 
 .noticias{
-border: 2px solid white;
+/*border: 2px solid white;*/
 margin-right: 2px;
 width: 40%;
-box-sizing: border-box;
+/*box-sizing: border-box;*/
+position: absolute;
 }
 
 #fonte{
@@ -102,7 +105,22 @@ box-sizing: border-box;
 .anuncio{
 	width: 17%;
 	border: 2px solid white;
-	margin-left: 83%;
-	margin-top: -27.6%;
+	margin-left: 82.35%;
+	margin-top: 0%;
 	box-sizing: border-box;
+	position: absolute;
+}
+/*#formatar{
+	display: flex;
+	align-items: flex-start;
+}*/
+
+.noticias:hover{
+	zoom:105%;
+}
+
+img{
+	height: 200px;
+	width: 65%;
+	margin-left: 50px;
 }
