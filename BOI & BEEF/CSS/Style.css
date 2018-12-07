@@ -21,33 +21,36 @@ header{
 }
 #d{
 	width: 101%;
-	height: 5%;
+	height: 3%;
 	background-color: #BF0B0B;
 	border:2px solid #BF0B0B;
 	border-left: 2px;
-	margin-left: -7px;
+	margin-left: -8px;
 	text-decoration: none;
 }
 body{
-	background-color: #FF0000;/*#FF0000*/
+	background-color: #FFFFFF;/*#FF0000*/
 	text-decoration: none;
 	font-family: STENCIL;
+	color:black;
 }
-#d2{
+#d2{/*
 	text-decoration: none;
 	width: 101%;
 	height: 5%;
-	background-color: #CF1717;/*#CF1717*/
+	/*background-color: #CF1717;/*#CF1717
 	border:2px solid #CF1717;
 	border-left: 2px;
-	margin-left: -7px;
+	margin-left: -8px;
+	*/
 }
+
 .cabeçalho{
 	font-size: 25px;
 	text-shadow: 0PX 0PX;
 	text-decoration: none;
 	position: relative;
-	margin-left: 42%;
+	margin-left: 41%;
 	margin-top: -70px;
 }
 ul{
@@ -69,14 +72,16 @@ a:link{
 }
 a{
 	color: #FF0000;
+	text-align:  justify-all;
 }
 a:hover{
 	zoom:120%;
 	color:brown;
 }
 .noticias,.receita{
-	color: white;
+	color: black;
 	font-size: 50px;
+
 }
 
 .receita{
@@ -104,23 +109,45 @@ position: absolute;
 }
 .anuncio{
 	width: 17%;
-	border: 2px solid white;
+	border: 2px solid #400404 ;
 	margin-left: 82.35%;
 	margin-top: 0%;
 	box-sizing: border-box;
 	position: absolute;
+	color:black;
+	background-color: #400404;
+	height: 25%
 }
 /*#formatar{
 	display: flex;
 	align-items: flex-start;
 }*/
 
-.noticias:hover{
-	zoom:105%;
-}
-
 img{
 	height: 200px;
 	width: 65%;
 	margin-left: 50px;
+}
+
+p{
+	color : black;
+	text-align: center;
+	text-align:  justify-all;
+}
+
+.caixa{
+	box-sizing: border-box;
+}
+.caixa:hover{
+	zoom:120%;
+}
+footer{
+	width: 101%;
+	height: 15%;
+	border: 1px solid #400404;
+	margin-left: -7.7px;
+	background-color: #400404;
+	float: bottom;
+	margin-top: 100%;
+	margin-bottom: 0%;
 }
