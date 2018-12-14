@@ -2,7 +2,7 @@
 @import url(../FONTS/STENCIL.ttf);
 
 header{
-	width: 100.44%;
+	width:100.44%;
 	height: 15%;
 	border: 5px solid #400404;
 	margin-left: -7.7px;
@@ -20,36 +20,35 @@ header{
 	text-decoration: none;
 }
 #d{
-	width: 101%;
-	height: 3%;
+	width: 101.05%;
+	height: 5%;
 	background-color: #BF0B0B;
 	border:2px solid #BF0B0B;
 	border-left: 2px;
 	margin-left: -8px;
 	text-decoration: none;
+	margin-top: -2.5px;
 }
 body{
 	background-color: #FFFFFF;/*#FF0000*/
 	text-decoration: none;
 	font-family: STENCIL;
-	color:black;
 }
-#d2{/*
+#d2{
 	text-decoration: none;
-	width: 101%;
-	height: 5%;
-	/*background-color: #CF1717;/*#CF1717
-	border:2px solid #CF1717;
+	width: 100.7%;
+	height: 18%;
+	background-color: #BF0B0B;/*#CF1717*/
+	border:2px solid #BF0B0B;
 	border-left: 2px;
-	margin-left: -8px;
-	*/
+	margin-left: -7px;
+	margin-top: -10px;
 }
-
 .cabeçalho{
-	font-size: 25px;
+	font-size: 27%;
 	text-shadow: 0PX 0PX;
 	text-decoration: none;
-	position: relative;
+	position: absolute;
 	margin-left: 41%;
 	margin-top: -70px;
 }
@@ -72,16 +71,14 @@ a:link{
 }
 a{
 	color: #FF0000;
-	text-align:  justify-all;
 }
 a:hover{
 	zoom:120%;
 	color:brown;
 }
 .noticias,.receita{
-	color: black;
+	color: white;
 	font-size: 50px;
-
 }
 
 .receita{
@@ -96,10 +93,10 @@ a:hover{
 }
 
 .noticias{
-/*border: 2px solid white;*/
+border: 2px solid white;
 margin-right: 2px;
 width: 40%;
-/*box-sizing: border-box;*/
+box-sizing: border-box;
 position: absolute;
 }
 
@@ -109,45 +106,52 @@ position: absolute;
 }
 .anuncio{
 	width: 17%;
-	border: 2px solid #400404 ;
+	
 	margin-left: 82.35%;
 	margin-top: 0%;
 	box-sizing: border-box;
 	position: absolute;
-	color:black;
-	background-color: #400404;
-	height: 25%
+	background-color:  #400404;
+	height: 25%;
 }
 /*#formatar{
 	display: flex;
 	align-items: flex-start;
 }*/
 
+img:hover{
+	zoom:108%;
+}
+
 img{
 	height: 200px;
 	width: 65%;
 	margin-left: 50px;
 }
-
-p{
-	color : black;
-	text-align: center;
-	text-align:  justify-all;
-}
-
-.caixa{
-	box-sizing: border-box;
-}
-.caixa:hover{
-	zoom:120%;
-}
 footer{
-	width: 101%;
-	height: 15%;
-	border: 1px solid #400404;
+	width: 100.44%;
+	height: 45%;
+	border: 5px solid #400404;
 	margin-left: -7.7px;
-	background-color: #400404;
-	float: bottom;
 	margin-top: 100%;
-	margin-bottom: 0%;
+	background-color: #400404;
+	margin-bottom: -10px;
+	float: bottom;
 }
+p{
+	color: black;
+	text-align: left; 
+	text-indent: unset;
+	box-sizing: border-box;
+	word-spacing: -0px;
+	line-height: 5px;
+}
+h1{
+	text-align:center; 
+}
+
+@media	(max-width:	939px)	{
+	/*	adicionar	aqui	os	novos	estilos	para	mobile	*/
+		font-size: 12px;
+
+} 
