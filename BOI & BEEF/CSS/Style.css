@@ -21,7 +21,7 @@ header{
 }
 #d{
 	width: 101.05%;
-	height: 5%;
+	height: 2%;
 	background-color: #BF0B0B;
 	border:2px solid #BF0B0B;
 	border-left: 2px;
@@ -72,9 +72,12 @@ a:link{
 a{
 	color: #FF0000;
 }
-a:hover{
+li:hover{
 	zoom:120%;
 	color:brown;
+}
+a:hover{
+	zoom:105%;
 }
 .noticias,.receita{
 	color: white;
@@ -85,20 +88,141 @@ a:hover{
 	position: absolute;
 	margin-left: 41.50%;
 	margin-top: 0%;
-	border: 2px solid white;
+	/*border: 2px solid black;*/
 	width: 40%;
 	box-sizing: border-box;
 	float: left;
 
 }
 
+.r1{
+
+	width:30% ;
+	height:30% ;
+	box-sizing: border-box;
+	text-align: justify-all;
+}
+
+.r2{
+
+	width:30% ;
+	height:30% ;
+	margin-top: 5%;
+	box-sizing: border-box;
+	text-align: justify-all;
+}
+
+.r3{
+
+	width:30% ;
+	height:30% ;
+	margin-left: 70%;
+	margin-top: -69.7%;
+	box-sizing: border-box;
+	text-align: justify-all;
+}
+
+.r4{
+
+	width:30% ;
+	height:30% ;
+	margin-left: 70%;
+	margin-top: 5%;
+	box-sizing: border-box;
+	text-align: justify-all;
+}
+
+.r1:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+.r2:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+.r3:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+.r4:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+
 .noticias{
-border: 2px solid white;
+/*border: 2px solid black;*/
 margin-right: 2px;
 width: 40%;
 box-sizing: border-box;
 position: absolute;
 }
+
+.n1{
+	width:30% ;
+	height:30% ;
+	box-sizing: border-box;
+	margin-left: 5.5%;
+	text-align: justify-all;
+}
+
+.n2{
+
+	width:30% ;
+	height:30% ;
+	margin-top: 10%;
+	box-sizing: border-box;
+	margin-left: 5.5%;
+	text-align: justify-all;
+}
+
+.n3{
+	width:30% ;
+	height:30% ;
+	margin-left: 61.2%;
+	margin-top: -74.7%;
+	box-sizing: border-box;
+	text-align: justify-all;
+}
+
+.n4{
+
+	width:30% ;
+	height:30% ;
+	margin-left: 61.2%;
+	margin-top: 5%;
+	box-sizing: border-box;
+	text-align: justify-all;
+}
+
+.n1:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+
+.n2:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+
+.n3:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+
+.n4:hover{
+	border: 2px solid #400404;
+	animation-delay: 1.5s;
+	animation: cubic-bezier(1);
+}
+
+
 
 #fonte{
 	font-size: 20px;
@@ -119,14 +243,10 @@ position: absolute;
 	align-items: flex-start;
 }*/
 
-img:hover{
-	zoom:108%;
-}
-
 img{
-	height: 200px;
-	width: 65%;
-	margin-left: 50px;
+	height: 10%;
+	width: 20%;
+	margin-left: 60px;
 }
 footer{
 	width: 100.44%;
@@ -148,10 +268,5 @@ p{
 }
 h1{
 	text-align:center; 
+	font-size: 50%;
 }
-
-@media	(max-width:	939px)	{
-	/*	adicionar	aqui	os	novos	estilos	para	mobile	*/
-		font-size: 12px;
-
-} 
