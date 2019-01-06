@@ -1,4 +1,4 @@
-# Boi-Beef
+﻿# Boi-Beef
 site sobre gado, culinária e churrasco.
 
 Publico alvo: Pecuaristas e interessados em: pecuaria, churrasco e culinaria.
@@ -8,3 +8,5 @@ semana publicar uma receita de churrasco ou uma receita estragenira que use Carn
 vegetarianos e veganos, principalmente veganos, não terão um bom espaço aqui nesse site).
 
 Link Firebase: https://boi-beef.firebaseapp.com/
+
+Link 000webhost : https://boi-e-beef.000webhostapp.com/

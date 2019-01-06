@@ -98,7 +98,7 @@ a:hover{
 .r1{
 
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	box-sizing: border-box;
 	text-align: justify-all;
 }
@@ -106,7 +106,7 @@ a:hover{
 .r2{
 
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	margin-top: 5%;
 	box-sizing: border-box;
 	text-align: justify-all;
@@ -115,9 +115,9 @@ a:hover{
 .r3{
 
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	margin-left: 70%;
-	margin-top: -69.7%;
+	margin-top: -53.5%;
 	box-sizing: border-box;
 	text-align: justify-all;
 }
@@ -125,9 +125,9 @@ a:hover{
 .r4{
 
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	margin-left: 70%;
-	margin-top: 5%;
+	margin-top: 6%;
 	box-sizing: border-box;
 	text-align: justify-all;
 }
@@ -163,7 +163,7 @@ position: absolute;
 
 .n1{
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	box-sizing: border-box;
 	margin-left: 5.5%;
 	text-align: justify-all;
@@ -172,7 +172,7 @@ position: absolute;
 .n2{
 
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	margin-top: 10%;
 	box-sizing: border-box;
 	margin-left: 5.5%;
@@ -181,9 +181,9 @@ position: absolute;
 
 .n3{
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	margin-left: 61.2%;
-	margin-top: -74.7%;
+	margin-top: -58%;
 	box-sizing: border-box;
 	text-align: justify-all;
 }
@@ -191,9 +191,9 @@ position: absolute;
 .n4{
 
 	width:30% ;
-	height:30% ;
+	height:35% ;
 	margin-left: 61.2%;
-	margin-top: 5%;
+	margin-top: 10%;
 	box-sizing: border-box;
 	text-align: justify-all;
 }
