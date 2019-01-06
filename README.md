@@ -1,5 +1,5 @@
 ﻿# Boi-Beef
-<h1><p>acesse esse site e fique por dentro das <h4>noticias</h4> sobre o <h4>mercado da pecuaria</h4>.</p>
+<h1>acesse esse site e fique por dentro das <h4>noticias</h4> sobre o <h4>mercado da pecuaria</h4>.
 está a procura de uma boa <h4>receita</h4> e de um bom <h4>churrasco</h4>? Então acesse esse site e veja as receitas mais variads sobre um precioso ingrediente, a <h4>carne</h4></h1>
 
 Publico alvo: Pecuaristas e pessoas interessadas em: pecuaria, churrasco e culinaria.
